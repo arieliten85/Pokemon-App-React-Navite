@@ -2,12 +2,12 @@ import React from 'react';
 
 import {NavigationContainer} from '@react-navigation/native';
 
-import {Navigation} from './src/navigation/Navigation';
+import {Tabs} from './src/navigation/Tabs';
 
 function App(): React.JSX.Element {
   return (
     <NavigationContainer>
-      <Navigation />
+      <Tabs />
     </NavigationContainer>
   );
 }
